@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2B2923;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+nav ul li {
+    list-style: none;
+    color: #F1F0EE;
+}
+
+main {
+    display: flex;
+}
+
+main h1 {
+    color: #F1F0EE;
+}
+
+main p {
+    color: #F1F0EE;
+}
