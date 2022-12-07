@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,30 +14,66 @@ body {
 
 nav {
     display: flex;
+    height: 20vh;
     align-items: center;
     justify-content: space-between;
+}
+
+nav:first-child {
+    margin-left: 250px;
+    cursor: pointer;
 }
 
 nav ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-right: 200px;
 }
 
 nav ul li {
     list-style: none;
-    color: #F1F0EE;
+    margin-right: 40px;
+    color: #c9d6de;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
-main {
+nav ul li button {
+    background-color: transparent;
+    border: solid #9E8E36 1px;
+    padding: 15px 30px;
+    color: #9E8E36;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main {
+    
+} */
+
+main section {
+    height: 50%;
+}
+
+.topSection {
     display: flex;
 }
 
-main h1 {
+.topSection h1 {
+    /* width: px; */
+    margin-left: 240px;
+    margin-right: 500px;
+    font-weight: 800;
+    font-size: 60px;
     color: #F1F0EE;
+    font-family: 'Montserrat', sans-serif;
 }
 
-main p {
+.topSection p {
     color: #F1F0EE;
+    font-family: 'Poppins', sans-serif;
 }
