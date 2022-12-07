@@ -59,9 +59,10 @@ nav ul li button {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 100%; */
 }
 
-.topSection h1 {
+.topSection .leftSection h1 {
     /* position: relative; */
     color: #F1F0EE;
     font-family: 'Montserrat', sans-serif;
@@ -69,12 +70,13 @@ nav ul li button {
     font-size: 65px;
     left: 500px;
     top: 50px;
-    width: 600px;
+    /* width: 800px; */
     margin-left: 400px;
     line-height: 60px;
+    width: 80%;
 }
 
-.topSection p {
+.topSection .rightSection p {
     /* position: relative; */
     /* display: flex; */
     /* justify-content: space-around; */
@@ -84,7 +86,8 @@ nav ul li button {
     font-size: 18px;
     line-height: 25px;
     /* right: 100px; */
-    margin-left: 500px;
+    margin-left: 300px;
+    width: 50%;
 }
 
 .bottomSection img {
