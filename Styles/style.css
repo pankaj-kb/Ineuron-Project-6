@@ -55,40 +55,42 @@ nav ul li button {
     font-family: 'Poppins', sans-serif;
 }
 
-
- main section {
-    height: 50%;
-}
-
 .topSection {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .topSection h1 {
-    margin-left: 240px;
-    margin-right: 500px;
-    font-weight: 800;
-    font-size: 60px;
+    /* position: relative; */
     color: #F1F0EE;
     font-family: 'Montserrat', sans-serif;
-    line-height: 80px;
-    width: 110vw;
+    font-weight: 800;
+    font-size: 65px;
+    left: 500px;
+    top: 50px;
+    width: 600px;
+    margin-left: 400px;
+    line-height: 60px;
 }
 
 .topSection p {
-    position: relative;
+    /* position: relative; */
+    /* display: flex; */
+    /* justify-content: space-around; */
     color: #F1F0EE;
     font-family: 'Montserrat', sans-serif;
-    margin-left: -100px;
-    margin-right: 500px;
-    font-size: 20px;
-    width: 50vw;
-    margin-top: 20px;
-    line-height: 20px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+    /* right: 100px; */
+    margin-left: 500px;
 }
 
 .bottomSection img {
     position: relative;
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 400px;
+    height: 570px;
+    width: 1050px;
 }
